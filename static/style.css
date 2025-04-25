@@ -1,0 +1,74 @@
+body {
+    background-image: linear-gradient(rgb(196, 47, 129), rgb(196, 88, 106));
+    background-repeat: norepeat;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center; 
+    margin: 0;
+    min-height: 100vh;
+}
+
+h1 {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    color: white;
+}
+
+#container-div {
+    width: 300px;
+    min-height: 200px;
+    max-height: 400px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+#link-form {
+display: flex;
+flex-direction: column;
+width: 250px;
+}
+
+#link-form button {
+margin-top: 15px;
+font-family: "Montserrat Alternates", sans-serif;
+color: #ffff;
+background-color: #3B5BFF;
+border: none;
+border-radius: 10px;
+padding: 10px 20px;
+font-weight: 600;
+}
+
+#link-form input::placeholder {
+    color:gray;
+    font-family: "Montserrat Alternates", sans-serif;
+}
+
+#link-form input {
+    color: rgb(36, 36, 36);
+    font-family: "Montserrat Alternates", sans-serif;
+}
+
+#url {
+    border: solid 1px gainsboro;
+    border-radius: 8px;
+    height: 15px;
+    padding: 10px;
+}
+
+
+#resultado p {
+    align-items: center;
+    display: grid;
+    font-family: "Montserrat Alternates", sans-serif;
+    color: black;
+}
