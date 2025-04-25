@@ -1,28 +1,27 @@
 <h1 align="center">
-  🔗 Encurtador de Links com Flask
+  🔗 Link Shortener with Flask
 </h1>
 
 <p align="center">
-  Uma aplicação full stack simples com Flask e front-end em HTML, CSS e JavaScript.
+  A simple full stack application built with Flask and a clean HTML, CSS and JavaScript frontend.
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/status-em%20desenvolvimento-blue" />
-  <img src="https://img.shields.io/badge/feito%20com-Python%20%26%20Flask-yellow" />
+  <img src="https://img.shields.io/badge/built%20with-Python%20%26%20Flask-yellow" />
 </p>
 
 ---
 
-## ✨ Funcionalidades
+## ✨ Features
 
-- ✅ Gera um link curto a partir de qualquer URL
-- 🔁 Redireciona automaticamente quando alguém acessa o link curto
-- 📊 Exibe estatísticas de quantos cliques o link recebeu
-- 🎨 Interface bonita, responsiva e feita com carinho
+- ✅ Generates a short URL from any long link
+- 🔁 Automatically redirects to the original link when accessed
+- 📊 Tracks and displays the number of clicks
+- 🎨 Clean, responsive, and user-friendly interface
 
 ---
 
-## 🧪 Tecnologias
+## 🛠 Technologies Used
 
 - 🐍 Python
 - 🔥 Flask
@@ -31,14 +30,14 @@
 
 ---
 
-## 🚀 Como rodar localmente
+## 🚀 How to Run Locally
 
 ```bash
 git clone https://github.com/julinha2607/URL-Shortener.git
 cd URL-Shortener
 
 python3 -m venv venv
-source venv/bin/activate   # no Windows use: venv\Scripts\activate
+source venv/bin/activate   # or venv\Scripts\activate on Windows
 
 pip install -r requirements.txt
 python app.py
